@@ -33,3 +33,7 @@
   text-align: center;
   min-width: 15rem;
 }
+
+/* Kein Menü/Banner mehr: Inhalt selbst unter dem Blumenrand beginnen lassen */
+main { padding-top: 0; }
+.thanks { padding-top: calc(var(--safe-v) + var(--space-3)); }
