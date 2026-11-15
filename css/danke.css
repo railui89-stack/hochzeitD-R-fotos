@@ -37,3 +37,12 @@
 /* Kein Menü/Banner mehr: Inhalt selbst unter dem Blumenrand beginnen lassen */
 main { padding-top: 0; }
 .thanks { padding-top: calc(var(--safe-v) + var(--space-3)); }
+
+.thanks-text a {
+  border-bottom: 1px solid var(--gold);
+  transition: color 0.25s ease;
+}
+.thanks-text a:hover,
+.thanks-text a:focus-visible {
+  color: var(--gold);
+}
